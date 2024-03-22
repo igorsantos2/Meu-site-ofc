@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Igor Ribeiro</title>
+     <!--Inserindo a fonte -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <style>
+        body {  /* Colocando a cor de fundo de verde e ajustando para ocupar todo o espaço da janela do navegador */
+            background-color: rgb(169, 219, 129);
+            height: 100vh;
+        }
+
+        .init { /*Ajustando o espaçamento para menu de navegação */
+            min-height: 120vh;
+            padding-top: 70px;    
+        }
+
+        .hellow h1, span{ /* centralizando o texto e aumentando a fonte */
+            text-align: center;
+            font-size: 38px;
+        }
+   
+        .topico { /* Ajustando espaçamento */
+            min-height: 300vh;
+            padding-top: 150px;
+        }
+
+        .topico p{  /* alinhando/ajustandoe aumentando os paragrafos */
+            margin-left: 80px;
+            margin-right: 80px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .topico h1{ /* centralizando e aumento a fonte dos titulos */
+            text-align: center;
+            font-size: 38px;
+        }
+
+        .cursos h1, p{ /* alinhando/ajustando o titulo e colocando a cor de preto*/
+            color: black;
+            text-align: left;
+            margin-left: 120px;    
+            font-size: 38px;
+        }
+
+        .descricao p{ /* alinhando/ajustando os paragrafo e colocando a cor de branco e aumentando a fonte */
+            color: white;
+            font-size: 30px;
+            text-align: left;
+            margin-left: 120px;    
+        }
+
+        *{  /* ajustando os posicionamentos da margem, espaçamento, tamanho do elemento e inserindo a familía da fonte */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;      
+        }
+
+        .descricao h1{ /* alinhando/ajustando o titulo , colocando a cor de preto do titulo e aumentando a fonte e*/
+            color: black;
+            text-align: left;
+            margin-left: 120px;    
+            font-size: 38px;
+        }
+
+        .topico h1{ /* centralizando os titulos */
+            text-align: center;
+        }
+
+        p{ /* colocando a cor dos paragrafos de branco */
+            color:  white;
+        }
+
+        .nome{  /* colocando a cor  branca */
+            color: white;
+        }
+
+        span{ /* colocando o nome Sou igor ribeiro dos santos de branco */
+            color: white;
+        }
+
+        li{ /* colocando a cor branca */
+            color: white
+        }
+
+        .perfil{ /* ajustando/alinhando a minha imagem */
+            float: right;
+            height: 400px;
+            border-radius: 30%;
+            margin-right: 100px;
+        }
+
+        form{ /* ajustando/alinhando o formulario e deixando a cor dele branco*/
+            width: 300px;
+            margin: auto;
+            color: white;
+        }
+
+        .menu { /* Centralizando o texto do menu/ajustando a largura total da página e ajustando para o conteúdo não ultrapassar o menu  */
+            width: 100%; 
+            overflow: hidden;   
+            text-align: center; 
+        }
+
+        .menu ul { /* deixando o menu fixo na hora da rolagem/ajustadno quebra de linha, margem, espaçamento e largura*/
+            list-style-type: none; 
+            margin: 0; 
+            padding: 0; 
+            white-space: nowrap; 
+            position: fixed; 
+            width: 100%; 
+            z-index: 1000;
+        }
+
+        .menu li {
+            display: inline; /* Exibe os itens da lista lado a lado */
+        }
+
+        .menu li a { /* adicionado cor de texto de links. ajustando margem, tamanho da fonte, espaçamento e exibindo links lado a lado, removendo subinhados e cntralizando  o texto*/
+            display: inline-block; 
+            color: gray; 
+            text-align: center; 
+            padding: 14px; 
+            text-decoration: none; 
+            font-size: 20px; 
+            margin-right: 40px; 
+        }
+
+        .menu a:hover { /* colocando uma leve animação e cor branca ao passar o curso no menu */
+            color: white;
+            transform: scale(1.09);
+        }  
+
+        .icone { /* adicionando espaçamento aos icones */
+            padding-left: 600px;
+        }
+
+        .cont img{ /* aumentando o tamanho dos icones */
+            height: 70px;
+        }
+
+        .cont h1{
+            text-align: center;
+        }
+
+        .fo{/* ajustando o formulario */
+            width: 300px;
+            height: 30px;
+        }
+
+        button{ /* ajustando o tamanho/largura do botão do formulario */
+            height: 30px;
+            width:  45px;
+        }
+
+        th{ /* colocando a cor preta na legenda do formulario */
+            color: black;
+        } 
+    </style>
+</head>
+<body>
+    <header>
+    <!--Criando o menu de navegação-->
+        <nav>  
+            <div id="menu" class="menu">
+                <ul>
+                    <li><a href="#Portfolio">Portfólio</a></li>
+                    <li><a href="#sobremim">Sobre Mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="Portfolio" class="init">
+            <div class="hellow">
+    <!--Criando um titulo (saudando e se apresentando). -->      
+                <h1> Olá, seja bem vindo(a) ao meu Portfólio! <span>Sou Igor Ribeiro Dos Santos.</span></h1>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="descricao">
+    <!--Descrição do site -->  
+                <h1> Descrição</h1>
+                    <img src="perfil.jpg" class="perfil">  <!--Meu perfil -->  
+            <br>
+            <br>
+            <p> O conteúdo desse site é sobre a minha vida pessoal e profissional, foi produzido com tecnologias (HTML e CSS puro), nenhum framework e linguagem de programação foram ultilizados!</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="cursos">
+                <!--Meus conhecimentos-->
+                <h1> Meus conhecimentos</h1>
+                <br>
+                <p>Versionamento de códigos </p>
+                <p>JavaScript </p>
+                <p>Html e Css</p>
+                <p>Python</p>
+            </div>    
+        </section>
+        <!--Sobre mim-->
+        <section id="sobremim" class="topico">
+            <h1>Sobre Mim</h1>
+            <br>
+            <br>
+            <br>
+            <p>Meu nome é Igor Ribeiro Dos Santos, tenho 18 anos, moro no interior do estado da Bahia em Ibirapitanga, sou estudante de Análise e Desenvolvimento de Sistemas na universidade Uninter, no formato EAD. Sobre a minha vida pessoal, eu gosto de jogos e de praticar esportes, principalmente Futebol, os lugaress que eu gosto de frenquentrar é em ambiente familiar, como praia, churrasco em familía, viagens e a minha igreja ( Igreja advenstista do sétimo dia), sou um homem religioso, a fé a qual eu sigo e sempre seguirei.</p>
+        </section>
+        <!--Minha formação-->
+        <section id="formacao" class="topico">
+            <h1>Minha Formação</h1>
+            <br>
+            <br>
+            <br>
+            <p>Eu me formei em 2022 com 17 anos no ensino médio e em 2023 ganhei uma bolsa 100% no prouni de ADS na uninter com 18 anos. Iniciei os meus estudos em inglês, conhecimento no qual desejo aprender, pois sei que é fundamental o conhecimenho em inglês, ainda mais na aréa que eu desejo atuar, faço curso de programação na internet, para melhorar os meus conhecimentos. Eu não tenho tanta experiência, pois tenho somente 18 anos, porém tenho muita vontade e determinação de iniciar na aréa, sei que não vai ser facil, mas irei continuar estudando para que eu consiga ingressar na aréa de programação.</p>
+        </section>
+    
+        <section id="contatos" class="topico">
+            <div class="cont"> 
+                <h1>Contatos </h1>    <!--Meus contatos-->
+                <div class="icone"> 
+                <br>
+                <br>
+                        <!--links/icones para as redes sociais-->
+                    <a href="https://github.com/igorsantos2"><img src="icone.svg"></a>
+                    <a href="https://www.linkedin.com/in/igor-ribeiro-3a3224292"><img src="icone 4.svg"></a>
+                </div>
+            </div>
+            <br>
+            <br>
+                <h1>Me mande um Feedback sobre o meu Portfólio!</h1>  <!--feedback-->
+            <br>
+            <br>
+            <br>
+                <!--criando o formulario "visual"-->
+            <form >
+                <table>
+                    <tr>
+                        <!--criando a entrada e a legenda do lado do formulario-->
+                        <th><label  for="nome">Nome:</label></th>
+                        <td><input class="fo" type="text" name="nome" id="nome"></td>
+                    </tr>
+                    <tr>
+                        <!--criando a entrada e a legenda do lado do formulario-->
+                        <th><label  for="email">E-mail:</label></th>
+                        <td> <input class="fo" type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="msg">Digite o seu feedback:</label></th>
+                        <td><textarea name="msg" rows="10" cols="42" placeholder="Digite o seu feedback:"></textarea></td>
+                    </tr>    
+                    <tr>
+                        <td></td>
+                        <!--criando o botão de enviar-->
+                        <td> <button>Enviar</button></td>
+                    </tr>
+                </table>
+                </div>
+            </form>
+        </section>
+    </header>
+</body>
+</html>
